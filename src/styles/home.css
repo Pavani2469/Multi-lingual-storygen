@@ -1,0 +1,43 @@
+/* home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.home-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+}
+.feature-card {
+  background-color: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,80 @@
+.storytool-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.storytool-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.storytool-input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.storytool-button {
+  width: 100%;
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.storytool-button:hover {
+  background-color: #4338ca;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #eef2ff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: #1e3a8a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.story-output {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  white-space: pre-line;
+  color: #333;
+}
+.storytool-select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

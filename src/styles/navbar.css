@@ -1,0 +1,26 @@
+/* src/components/styles/navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a202c;
+  color: white;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  color: #90cdf4;
+}
